@@ -15,8 +15,8 @@ load_dotenv()
 # GEMINI MODEL
 # ---------------------------------------
 model = ChatGoogleGenerativeAI(
-        model="gemini-3.5-flash-lite",
-    temperature=0
+    model="gemini-2.0-flash-lite",
+    temperature=0,
 )
 
 

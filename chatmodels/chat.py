@@ -5,8 +5,8 @@ load_dotenv()
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 model = ChatGoogleGenerativeAI(
-      model="gemini-3.7-flash",
-    temperature=0
+    model="gemini-2.0-flash",
+    temperature=0,
 )
 messages=[]
 

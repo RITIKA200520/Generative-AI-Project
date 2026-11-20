@@ -6,8 +6,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import AIMessage,SystemMessage,HumanMessage
 
 model = ChatGoogleGenerativeAI(
-      model="gemini-3.5-flash-lite",
-    temperature=0
+    model="gemini-2.0-flash-lite",
+    temperature=0,
 )
 
 print("choose your ai mode")
