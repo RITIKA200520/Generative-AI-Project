@@ -1,0 +1,25 @@
+
+# API keys and secret files
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter files
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Windows files
+Thumbs.db
